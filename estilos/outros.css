@@ -1,0 +1,22 @@
+body{
+    background-color: white;
+}
+
+main{
+    background-color: rgb(250, 218, 214);
+    width: 700px;
+    margin: auto;
+    padding: 15px;
+}
+
+main h1{
+    font-size: 1.9em;
+}
+
+main h2{
+    font-size: 1.7em;
+}
+
+main p{
+    font-size: 1.2em;
+}

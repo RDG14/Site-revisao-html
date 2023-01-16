@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor01: #FFED2B;
+    --cor02: #FFF478;
+    --cor03: #FFF269;
+    --cor04: #FFED2C;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header h1, header h2{
+    background-image: linear-gradient(to right, var(--cor01), var(--cor03));
+    padding: 10px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2.2em;
+    
+}
+
+header h2{
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+nav{
+   background-color: orange;
+   padding: 10px;
+}
+
+.nav_princi{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav_princi:hover{
+    transition: transform 1s;
+    background-color: var(--cor04);
+    font-weight: bolder;
+}
+
+main{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+main h1{
+    padding-top: 20px;
+    text-align: center;
+}
+
+main h2{
+    margin: 20px;
+    text-align: center;
+    background-color: yellow;
+}
+
+footer p{
+    font-size: 1.2em;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
